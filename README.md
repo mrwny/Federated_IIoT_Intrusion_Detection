@@ -26,8 +26,7 @@ This repository contains the accompanying source code, experiment configurations
 │   │   └── run_mu_sweep.sh                     FedProx µ hyperparameter sweep
 │   │
 │   └── analysis/                           Data distribution analysis
-│       ├── visualise_partitions.py   IID vs Non-IID partition simulation
-│       └── analyse_fed_results.py
+│       └── visualise_partitions.py   IID vs Non-IID partition simulation
 │
 ├── eval/                       Aggregation & visualisation pipeline
 │   ├── aggregate_baseline_results.py
