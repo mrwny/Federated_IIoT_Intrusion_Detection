@@ -1,0 +1,41 @@
+
+============================================================
+---------- Model ----------
+Model Type: Random Forest Classifier
+Input Size: 40
+Optimizer: N/A
+Learning Rate: N/A
+Training Epochs: N/A
+Training Date: 2026-03-16 16:15:41.086316
+Training Samples: 1775360
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9248 (92.48%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign     0.9823    0.9131    0.9465    323129
+      Attack     0.8044    0.9559    0.8736    120712
+
+    accuracy                         0.9248    443841
+   macro avg     0.8933    0.9345    0.9100    443841
+weighted avg     0.9339    0.9248    0.9266    443841
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign  295065   28064
+       Attack    5325  115387
+
+True Negatives (Benign correctly identified):  295065
+False Positives (Benign misclassified):        28064
+False Negatives (Attack missed):               5325
+True Positives (Attack correctly detected):    115387
+
+Attack Detection Rate: 0.9559 (95.59%)
+False Positive Rate:   0.0869 (8.69%)
+============================================================
+

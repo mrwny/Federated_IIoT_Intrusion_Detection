@@ -1,0 +1,10 @@
+{
+  "num_rounds": 1,
+  "num_clients": 4,
+  "total_upload_bytes": 106326092,
+  "total_download_bytes": 425357048,
+  "total_bytes": 531683140,
+  "total_MB": 507.0526,
+  "avg_client_model_KB": 25958.52,
+  "global_model_KB": 103846.94
+}

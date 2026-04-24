@@ -1,0 +1,7 @@
+Final results after 20 rounds using FedXgbBagging:
+Number of participating clients: 4
+XGBoost params: {'objective': 'binary:logistic', 'eval_metric': 'logloss', 'seed': 62529, 'n_jobs': -1, 'max_depth': 9, 'learning_rate': 0.20211525651495557, 'n_estimators': 900, 'min_child_weight': 1, 'gamma': 0.0011375210935630209, 'subsample': 0.8669667098532958, 'colsample_bytree': 0.9319591927218307, 'max_delta_step': 8}
+Optimal Threshold: 0.5800
+Accuracy: 0.9613738287
+Detection Rate: 0.9121754386
+False Positive Rate: 0.0036313721

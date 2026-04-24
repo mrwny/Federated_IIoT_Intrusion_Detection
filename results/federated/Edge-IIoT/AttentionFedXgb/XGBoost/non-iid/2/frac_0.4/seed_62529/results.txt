@@ -1,0 +1,70 @@
+Final results using Attention-Weighted FedXgbBagging:
+Total rounds: 20
+Number of participating clients: 2
+XGBoost params: {'objective': 'binary:logistic', 'eval_metric': 'logloss', 'seed': 62529, 'n_jobs': -1, 'max_depth': 3, 'learning_rate': 0.017462960628932028, 'n_estimators': 850, 'min_child_weight': 2, 'gamma': 0.6008466563824473, 'subsample': 0.8874331341725578, 'colsample_bytree': 0.7409548092577293, 'max_delta_step': 2}
+Optimal Threshold: 0.5500
+Accuracy: 0.9528772691
+Detection Rate: 0.8453509179
+False Positive Rate: 0.0069538791
+
+--- Per-Round Attention Weights ---
+Round 1: α = [0.5028317538981798, 0.49716824610182014]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.8220, FPR=0.0135, Score=0.8109
+Round 2: α = [0.49999939046179304, 0.500000609538207]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.8731, FPR=0.0582, Score=0.8223
+Round 3: α = [0.5, 0.5]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.8731, FPR=0.0582, Score=0.8223
+Round 4: α = [0.500000609538207, 0.49999939046179304]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.8731, FPR=0.0582, Score=0.8223
+Round 5: α = [0.49999939046179304, 0.500000609538207]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.8731, FPR=0.0582, Score=0.8223
+Round 6: α = [0.49365748564207074, 0.5063425143579293]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.9000, FPR=0.0582, Score=0.8477
+Round 7: α = [0.49365748564207074, 0.5063425143579293]
+  Client 0: DR=0.8731, FPR=0.0582, Score=0.8223
+  Client 1: DR=0.9000, FPR=0.0582, Score=0.8477
+Round 8: α = [0.49997500893353397, 0.5000249910664661]
+  Client 0: DR=0.9000, FPR=0.0582, Score=0.8477
+  Client 1: DR=0.9001, FPR=0.0582, Score=0.8478
+Round 9: α = [0.4995095339309518, 0.5004904660690481]
+  Client 0: DR=0.9002, FPR=0.0582, Score=0.8478
+  Client 1: DR=0.9030, FPR=0.0590, Score=0.8497
+Round 10: α = [0.5000847187458748, 0.4999152812541253]
+  Client 0: DR=0.9029, FPR=0.0590, Score=0.8497
+  Client 1: DR=0.9030, FPR=0.0594, Score=0.8493
+Round 11: α = [0.5000757533373579, 0.4999242466626422]
+  Client 0: DR=0.9029, FPR=0.0594, Score=0.8492
+  Client 1: DR=0.9040, FPR=0.0609, Score=0.8489
+Round 12: α = [0.5000008742267843, 0.49999912577321565]
+  Client 0: DR=0.9040, FPR=0.0609, Score=0.8489
+  Client 1: DR=0.9040, FPR=0.0609, Score=0.8489
+Round 13: α = [0.5, 0.5]
+  Client 0: DR=0.9040, FPR=0.0609, Score=0.8489
+  Client 1: DR=0.9040, FPR=0.0609, Score=0.8489
+Round 14: α = [0.5, 0.5]
+  Client 0: DR=0.9040, FPR=0.0609, Score=0.8489
+  Client 1: DR=0.9040, FPR=0.0609, Score=0.8489
+Round 15: α = [0.5, 0.5]
+  Client 0: DR=0.9040, FPR=0.0609, Score=0.8489
+  Client 1: DR=0.9040, FPR=0.0609, Score=0.8489
+Round 16: α = [0.49994347366529945, 0.5000565263347005]
+  Client 0: DR=0.9040, FPR=0.0609, Score=0.8489
+  Client 1: DR=0.9042, FPR=0.0609, Score=0.8492
+Round 17: α = [0.4999307096543864, 0.5000692903456136]
+  Client 0: DR=0.9042, FPR=0.0609, Score=0.8492
+  Client 1: DR=0.9045, FPR=0.0609, Score=0.8494
+Round 18: α = [0.5, 0.5]
+  Client 0: DR=0.9045, FPR=0.0609, Score=0.8494
+  Client 1: DR=0.9045, FPR=0.0609, Score=0.8494
+Round 19: α = [0.4999969609497344, 0.5000030390502656]
+  Client 0: DR=0.9045, FPR=0.0609, Score=0.8494
+  Client 1: DR=0.9045, FPR=0.0609, Score=0.8495
+Round 20: α = [0.5006302986912283, 0.4993697013087717]
+  Client 0: DR=0.9045, FPR=0.0609, Score=0.8495
+  Client 1: DR=0.9018, FPR=0.0609, Score=0.8469

@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: FedRF on DataSense}
+\label{tab:datasense_fedrf_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+Random Forest & IID & 2 & 1.0 & 96.19 {\tiny $\pm$0.02} & 91.69 & 0.62 & 152.93 \\
+ &  & 4 & 1.0 & 96.04 {\tiny $\pm$0.02} & 91.47 & 0.71 & 191.01 \\
+ &  & 8 & 1.0 & 95.88 {\tiny $\pm$0.02} & 91.12 & 0.73 & 247.60 \\
+ &  & 12 & 1.0 & 95.78 {\tiny $\pm$0.02} & 90.94 & 0.78 & 294.13 \\
+ &  & 16 & 1.0 & 95.70 {\tiny $\pm$0.02} & 90.86 & 0.85 & 343.25 \\
+ &  & 20 & 1.0 & 95.65 {\tiny $\pm$0.01} & 90.60 & 0.76 & 377.55 \\
+ & Non-IID & 2 & 0.4 & 95.91 {\tiny $\pm$0.14} & 91.50 & 0.94 & 121.39 \\
+ &  & 2 & 1.0 & 95.91 {\tiny $\pm$0.14} & 91.50 & 0.94 & 121.39 \\
+ &  & 4 & 0.4 & 95.28 {\tiny $\pm$0.93} & 89.79 & 0.82 & 135.35 \\
+ &  & 4 & 1.0 & 95.28 {\tiny $\pm$0.93} & 89.79 & 0.82 & 135.35 \\
+ &  & 8 & 0.4 & 94.83 {\tiny $\pm$0.57} & 88.16 & 0.42 & 112.56 \\
+ &  & 8 & 1.0 & 94.83 {\tiny $\pm$0.57} & 88.16 & 0.42 & 112.56 \\
+ &  & 12 & 0.4 & 94.96 {\tiny $\pm$0.17} & 88.93 & 0.75 & 150.93 \\
+ &  & 12 & 1.0 & 94.96 {\tiny $\pm$0.17} & 88.93 & 0.75 & 150.93 \\
+ &  & 16 & 0.4 & 94.12 {\tiny $\pm$0.11} & 87.00 & 0.82 & 126.02 \\
+ &  & 16 & 1.0 & 94.12 {\tiny $\pm$0.11} & 87.00 & 0.82 & 126.02 \\
+ &  & 20 & 0.4 & 94.32 {\tiny $\pm$0.24} & 87.47 & 0.81 & 147.53 \\
+ &  & 20 & 1.0 & 94.32 {\tiny $\pm$0.24} & 87.47 & 0.81 & 147.52 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,45 @@
+
+============================================================
+---------- Model ----------
+Model Type: XGBoost Classifier
+Input Size: 40
+Optimizer: XGBoost
+Learning Rate: 0.1
+Training Epochs: 500
+Decision Threshold: 0.8700
+Threshold Tuned On: validation_split
+Threshold Policy: maximize_f1_with_fpr_constraint
+Max FPR Constraint: 0.01
+Training Date: 2026-03-17 22:26:22.764705
+Training Samples: 1775360
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9694980860 (96.9498086026%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign  0.9600286486 0.9997276629 0.9794760620    323129
+      Attack  0.9991802515 0.8885777719 0.9406389491    120712
+
+    accuracy                      0.9694980860    443841
+   macro avg  0.9796044501 0.9441527174 0.9600575055    443841
+weighted avg  0.9706767597 0.9694980860 0.9689134831    443841
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign  323041      88
+       Attack   13450  107262
+
+True Negatives (Benign correctly identified):  323041
+False Positives (Benign misclassified):        88
+False Negatives (Attack missed):               13450
+True Positives (Attack correctly detected):    107262
+
+Attack Detection Rate: 0.8885777719 (88.8577771887%)
+False Positive Rate:   0.0002723371 (0.0272337054%)
+============================================================
+

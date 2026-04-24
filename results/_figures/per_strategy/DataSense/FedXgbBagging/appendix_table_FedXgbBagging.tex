@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: FedXgbBagging on DataSense}
+\label{tab:datasense_fedxgbbagging_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+XGBoost & IID & 2 & 1.0 & 96.05 {\tiny $\pm$0.01} & 91.45 & 0.69 & 23.57 \\
+ &  & 4 & 1.0 & 96.13 {\tiny $\pm$0.01} & 91.29 & 0.43 & 71.37 \\
+ &  & 8 & 1.0 & 89.18 {\tiny $\pm$8.54} & 91.53 & 12.49 & 305.77 \\
+ &  & 12 & 1.0 & 60.04 {\tiny $\pm$2.23} & 98.04 & 66.98 & 310.00 \\
+ &  & 16 & 1.0 & 50.71 {\tiny $\pm$1.52} & 99.00 & 83.63 & 451.42 \\
+ &  & 20 & 1.0 & 59.64 {\tiny $\pm$23.49} & 93.86 & 64.69 & 710.88 \\
+ & Non-IID & 2 & 0.4 & 93.89 {\tiny $\pm$1.29} & 86.22 & 0.65 & 6.04 \\
+ &  & 2 & 1.0 & 93.89 {\tiny $\pm$1.29} & 86.22 & 0.65 & 11.30 \\
+ &  & 4 & 0.4 & 95.59 {\tiny $\pm$0.45} & 90.10 & 0.51 & 14.30 \\
+ &  & 4 & 1.0 & 95.35 {\tiny $\pm$0.68} & 89.65 & 0.60 & 68.05 \\
+ &  & 8 & 0.4 & 95.11 {\tiny $\pm$0.22} & 88.86 & 0.45 & 23.51 \\
+ &  & 8 & 1.0 & 95.44 {\tiny $\pm$0.14} & 89.65 & 0.45 & 155.59 \\
+ &  & 12 & 0.4 & 95.31 {\tiny $\pm$0.45} & 89.48 & 0.54 & 37.56 \\
+ &  & 12 & 1.0 & 94.56 {\tiny $\pm$1.47} & 87.90 & 0.70 & 340.57 \\
+ &  & 16 & 0.4 & 94.93 {\tiny $\pm$0.11} & 88.65 & 0.60 & 63.76 \\
+ &  & 16 & 1.0 & 89.34 {\tiny $\pm$8.28} & 89.86 & 11.03 & 413.94 \\
+ &  & 20 & 0.4 & 95.43 {\tiny $\pm$0.14} & 89.88 & 0.63 & 116.06 \\
+ &  & 20 & 1.0 & 84.31 {\tiny $\pm$6.89} & 87.70 & 18.10 & 654.22 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

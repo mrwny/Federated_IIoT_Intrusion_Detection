@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: AttentionFedXgb on DataSense}
+\label{tab:datasense_attentionfedxgb_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+XGBoost & IID & 2 & 1.0 & 96.05 {\tiny $\pm$0.03} & 91.39 & 0.63 & 23.58 \\
+ &  & 4 & 1.0 & 96.12 {\tiny $\pm$0.01} & 91.22 & 0.40 & 70.12 \\
+ &  & 8 & 1.0 & 95.87 {\tiny $\pm$0.25} & 90.71 & 0.46 & 308.85 \\
+ &  & 12 & 1.0 & 94.27 {\tiny $\pm$0.16} & 86.65 & 0.31 & 342.78 \\
+ &  & 16 & 1.0 & 93.78 {\tiny $\pm$0.57} & 85.60 & 0.40 & 446.42 \\
+ &  & 20 & 1.0 & 73.34 {\tiny $\pm$23.35} & 78.12 & 30.05 & 712.81 \\
+ & Non-IID & 2 & 0.4 & 93.90 {\tiny $\pm$1.30} & 86.30 & 0.70 & 6.04 \\
+ &  & 2 & 1.0 & 93.90 {\tiny $\pm$1.30} & 86.30 & 0.70 & 11.30 \\
+ &  & 4 & 0.4 & 95.16 {\tiny $\pm$0.71} & 89.51 & 0.83 & 8.86 \\
+ &  & 4 & 1.0 & 95.29 {\tiny $\pm$0.65} & 89.76 & 0.78 & 75.64 \\
+ &  & 8 & 0.4 & 94.95 {\tiny $\pm$0.10} & 88.92 & 0.77 & 24.16 \\
+ &  & 8 & 1.0 & 95.41 {\tiny $\pm$0.14} & 89.58 & 0.43 & 155.56 \\
+ &  & 12 & 0.4 & 95.37 {\tiny $\pm$0.24} & 89.58 & 0.51 & 35.98 \\
+ &  & 12 & 1.0 & 95.35 {\tiny $\pm$0.24} & 89.77 & 0.68 & 333.62 \\
+ &  & 16 & 0.4 & 94.80 {\tiny $\pm$0.08} & 88.68 & 0.85 & 58.70 \\
+ &  & 16 & 1.0 & 95.10 {\tiny $\pm$0.16} & 88.93 & 0.51 & 414.50 \\
+ &  & 20 & 0.4 & 95.36 {\tiny $\pm$0.09} & 89.81 & 0.69 & 119.40 \\
+ &  & 20 & 1.0 & 94.48 {\tiny $\pm$1.03} & 87.38 & 0.47 & 663.02 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

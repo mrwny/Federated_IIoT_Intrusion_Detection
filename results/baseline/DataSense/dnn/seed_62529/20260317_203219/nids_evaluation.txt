@@ -1,0 +1,49 @@
+
+============================================================
+---------- Model ----------
+Model Architecture: DNN(
+  (fc1): Linear(in_features=779, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=64, bias=True)
+  (fc3): Linear(in_features=64, out_features=2, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+Input Size: 779
+Loss Function: CrossEntropyLoss
+Loss Weights (Benign, Attack): [1.0, 1.5]
+Optimizer: Adam
+Learning Rate: 0.001
+Training Epochs: 30
+Training Date: 2026-03-17 20:35:47.650224
+Training Samples: 548536
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9604550261 (96.0455026069%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign  0.9447142857 0.9902789043 0.9669601243     80135
+      Attack  0.9853392303 0.9185263158 0.9507604304     57000
+
+    accuracy                      0.9604550261    137135
+   macro avg  0.9650267580 0.9544026101 0.9588602773    137135
+weighted avg  0.9615999957 0.9604550261 0.9602267407    137135
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign   79356     779
+       Attack    4644   52356
+
+True Negatives (Benign correctly identified):  79356
+False Positives (Benign misclassified):        779
+False Negatives (Attack missed):               4644
+True Positives (Attack correctly detected):    52356
+
+Attack Detection Rate: 0.9185263158 (91.8526315789%)
+False Positive Rate:   0.0097210957 (0.9721095651%)
+============================================================
+

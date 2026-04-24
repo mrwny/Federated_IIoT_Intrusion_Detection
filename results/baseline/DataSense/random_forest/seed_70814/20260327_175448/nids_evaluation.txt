@@ -1,0 +1,45 @@
+
+============================================================
+---------- Model ----------
+Model Type: Random Forest Classifier
+Input Size: 779
+Optimizer: N/A
+Learning Rate: N/A
+Training Epochs: N/A
+Decision Threshold: 0.2900
+Threshold Tuned On: validation_split
+Threshold Policy: maximize_f1_with_fpr_constraint
+Max FPR Constraint: 0.01
+Training Date: 2026-03-27 18:03:24.100029
+Training Samples: 548536
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9624530572 (96.2453057206%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign  0.9431587159 0.9957571598 0.9687444989     80135
+      Attack  0.9935276313 0.9156315789 0.9529904776     57000
+
+    accuracy                      0.9624530572    137135
+   macro avg  0.9683431736 0.9556943694 0.9608674882    137135
+weighted avg  0.9640944958 0.9624530572 0.9621963586    137135
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign   79795     340
+       Attack    4809   52191
+
+True Negatives (Benign correctly identified):  79795
+False Positives (Benign misclassified):        340
+False Negatives (Attack missed):               4809
+True Positives (Attack correctly detected):    52191
+
+Attack Detection Rate: 0.9156315789 (91.5631578947%)
+False Positive Rate:   0.0042428402 (0.4242840207%)
+============================================================
+

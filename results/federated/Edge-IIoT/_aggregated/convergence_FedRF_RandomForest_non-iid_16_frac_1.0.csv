@@ -1,0 +1,2 @@
+round,accuracy_mean,accuracy_std,detection_rate_mean,detection_rate_std,false_positive_rate_mean,false_positive_rate_std,train_loss_mean,train_loss_std
+1,0.963477,0.001771,0.882790,0.004251,0.006380,0.000973,nan,nan

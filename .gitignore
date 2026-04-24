@@ -1,0 +1,30 @@
+# Dependencies & environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Datasets (too large for git)
+datasets/
+
+# Model binaries
+*.pt
+*.pth
+*.pkl
+nids_model*
+venv/
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Raw experiment logs (not needed for reproduction)
+sweep_logs/
+baseline_logs/

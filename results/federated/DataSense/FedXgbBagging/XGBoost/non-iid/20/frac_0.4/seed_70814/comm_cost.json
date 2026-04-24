@@ -1,0 +1,10 @@
+{
+  "model_size_bytes": 439067,
+  "model_size_KB": 428.78,
+  "clients_per_round": 8,
+  "num_rounds": 20,
+  "per_round_bytes": 7025072,
+  "per_round_KB": 6860.42,
+  "total_bytes": 140501440,
+  "total_MB": 133.9926
+}

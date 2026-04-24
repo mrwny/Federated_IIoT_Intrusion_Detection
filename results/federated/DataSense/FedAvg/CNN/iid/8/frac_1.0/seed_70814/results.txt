@@ -1,0 +1,6 @@
+Final results after 20 rounds using FedAvg:
+Number of participating clients: 8
+Proximal mu: 1.0
+Accuracy: 0.9471980166
+Detection Rate: 0.8781578947
+False Positive Rate: 0.0036937668

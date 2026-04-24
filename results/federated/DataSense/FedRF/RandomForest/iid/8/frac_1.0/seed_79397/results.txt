@@ -1,0 +1,7 @@
+Final results using Federated Random Forest (bagging):
+Number of participating clients: 8
+Total trees: 400
+Optimal Threshold: 0.3000000000
+Accuracy: 0.9587413862
+Detection Rate: 0.9110877193
+False Positive Rate: 0.0073625757

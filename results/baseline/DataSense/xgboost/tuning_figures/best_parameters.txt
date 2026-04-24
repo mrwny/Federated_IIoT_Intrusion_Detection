@@ -1,0 +1,5 @@
+Dataset: DataSense
+Model: xgboost
+Best Parameters: {'learning_rate': 0.1, 'max_depth': 12, 'n_estimators': 500}
+Best CV F1: 0.9552
+Tuning duration: 1763.61s

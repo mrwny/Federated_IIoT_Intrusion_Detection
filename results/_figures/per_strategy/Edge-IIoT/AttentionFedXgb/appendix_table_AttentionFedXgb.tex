@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: AttentionFedXgb on Edge-IIoT}
+\label{tab:edge-iiot_attentionfedxgb_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+XGBoost & IID & 2 & 1.0 & 93.65 {\tiny $\pm$0.01} & 77.73 & 0.40 & 6.22 \\
+ &  & 4 & 1.0 & 94.01 {\tiny $\pm$0.24} & 79.85 & 0.70 & 18.33 \\
+ &  & 8 & 1.0 & 96.32 {\tiny $\pm$0.01} & 88.94 & 0.92 & 66.98 \\
+ &  & 12 & 1.0 & 96.60 {\tiny $\pm$0.02} & 88.83 & 0.50 & 144.04 \\
+ &  & 16 & 1.0 & 96.62 {\tiny $\pm$0.01} & 88.92 & 0.51 & 242.37 \\
+ &  & 20 & 1.0 & 96.72 {\tiny $\pm$0.03} & 89.43 & 0.56 & 368.80 \\
+ & Non-IID & 2 & 0.4 & 93.70 {\tiny $\pm$2.93} & 78.87 & 0.76 & 3.35 \\
+ &  & 2 & 1.0 & 93.23 {\tiny $\pm$2.58} & 77.20 & 0.78 & 5.05 \\
+ &  & 4 & 0.4 & 93.05 {\tiny $\pm$3.13} & 76.06 & 0.60 & 3.03 \\
+ &  & 4 & 1.0 & 93.53 {\tiny $\pm$2.92} & 77.94 & 0.65 & 14.13 \\
+ &  & 8 & 0.4 & 94.66 {\tiny $\pm$0.72} & 82.64 & 0.85 & 7.54 \\
+ &  & 8 & 1.0 & 95.94 {\tiny $\pm$0.42} & 87.34 & 0.84 & 45.82 \\
+ &  & 12 & 0.4 & 95.07 {\tiny $\pm$0.64} & 83.95 & 0.77 & 11.25 \\
+ &  & 12 & 1.0 & 95.65 {\tiny $\pm$0.65} & 86.05 & 0.77 & 89.59 \\
+ &  & 16 & 0.4 & 94.58 {\tiny $\pm$1.57} & 82.31 & 0.83 & 24.14 \\
+ &  & 16 & 1.0 & 96.04 {\tiny $\pm$0.43} & 87.67 & 0.84 & 159.58 \\
+ &  & 20 & 0.4 & 96.22 {\tiny $\pm$0.11} & 88.29 & 0.81 & 42.86 \\
+ &  & 20 & 1.0 & 96.30 {\tiny $\pm$0.16} & 88.30 & 0.71 & 254.40 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

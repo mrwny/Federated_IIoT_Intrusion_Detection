@@ -1,0 +1,5 @@
+Dataset: Edge-IIoT
+Model: random_forest
+Best Parameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+Best CV F1: 0.9269
+Tuning duration: 3202.16s

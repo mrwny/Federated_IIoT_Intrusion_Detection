@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Federated NIDS"
+version = "1.0.0"
+description = "Federated Learning for Network Intrusion Detection Systems"
+license = "Apache-2.0"
+dependencies = [
+    "flwr[simulation]>=1.24.0",
+    "flwr-datasets[vision]>=0.5.0",
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.flwr.app]
+publisher = "WBDW1"
+
+[tool.flwr.app.components]
+serverapp = "server_app:app"
+clientapp = "client_app:app"
+
+[tool.flwr.app.config]
+num-server-rounds = 20
+fraction-evaluate = 0.5
+fraction-train = 1
+min-train-nodes = 2
+lr = 0.001
+local-epochs = 5
+batch-size = 32
+partition-type = "non-iid"
+model-type = "DNN"
+strategy = "FedAvg"
+proximal-mu = 1.0
+straggler-probability = 0.3
+straggler-max-penalty = 0.7
+seed = 1702
+dataset = "DataSense"
+
+# XGBoost hyperparameters (matching nids_baseline values)
+xgb-max-depth = 12
+xgb-eta = 0.1
+xgb-min-child-weight = 1
+xgb-gamma = 0.2
+xgb-subsample = 0.8
+xgb-colsample-bytree = 0.8
+xgb-local-rounds = 25  # per FL round; 25 × 20 rounds = 500 total (matching baseline n_estimators=500)
+
+# Random Forest hyperparameters (matching nids_baseline values)
+rf-n-estimators = 150
+
+[tool.flwr.federations]
+default = "local-simulation-gpu"
+
+[tool.flwr.federations.local-simulation]
+options.num-supernodes = 20
+
+[tool.flwr.federations.local-simulation-gpu]
+options.num-supernodes = 20
+options.backend.client-resources.num-cpus = 1 # each ClientApp assumes to use 2CPUs
+options.backend.client-resources.num-gpus = 0.1
+
+[tool.flwr.federations.supergrid-deployment]
+address = "supergrid.flower.ai"
+enable-account-auth = true

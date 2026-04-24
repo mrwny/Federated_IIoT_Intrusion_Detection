@@ -1,0 +1,6 @@
+Final results after 20 rounds using FedProx:
+Number of participating clients: 20
+Proximal mu: 1.0
+Accuracy: 0.9222517957
+Detection Rate: 0.8144210526
+False Positive Rate: 0.0010482311

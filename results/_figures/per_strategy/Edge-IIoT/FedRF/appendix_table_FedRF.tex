@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: FedRF on Edge-IIoT}
+\label{tab:edge-iiot_fedrf_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+Random Forest & IID & 2 & 1.0 & 97.03 {\tiny $\pm$0.00} & 89.18 & 0.03 & 588.51 \\
+ &  & 4 & 1.0 & 97.03 {\tiny $\pm$0.00} & 89.16 & 0.03 & 742.86 \\
+ &  & 8 & 1.0 & 97.03 {\tiny $\pm$0.00} & 89.15 & 0.03 & 974.06 \\
+ &  & 12 & 1.0 & 97.03 {\tiny $\pm$0.00} & 89.14 & 0.03 & 1131.84 \\
+ &  & 16 & 1.0 & 97.02 {\tiny $\pm$0.00} & 89.13 & 0.03 & 1245.87 \\
+ &  & 20 & 1.0 & 97.02 {\tiny $\pm$0.00} & 89.13 & 0.03 & 1347.35 \\
+ & Non-IID & 2 & 0.4 & 96.69 {\tiny $\pm$0.14} & 90.23 & 0.90 & 453.83 \\
+ &  & 2 & 1.0 & 96.69 {\tiny $\pm$0.14} & 90.23 & 0.90 & 453.83 \\
+ &  & 4 & 0.4 & 95.55 {\tiny $\pm$1.07} & 84.85 & 0.45 & 348.88 \\
+ &  & 4 & 1.0 & 95.55 {\tiny $\pm$1.07} & 84.85 & 0.45 & 348.88 \\
+ &  & 8 & 0.4 & 96.81 {\tiny $\pm$0.07} & 88.66 & 0.15 & 310.81 \\
+ &  & 8 & 1.0 & 96.81 {\tiny $\pm$0.07} & 88.66 & 0.15 & 310.81 \\
+ &  & 12 & 0.4 & 96.71 {\tiny $\pm$0.05} & 88.41 & 0.19 & 227.82 \\
+ &  & 12 & 1.0 & 96.71 {\tiny $\pm$0.05} & 88.41 & 0.19 & 227.82 \\
+ &  & 16 & 0.4 & 96.35 {\tiny $\pm$0.18} & 88.28 & 0.64 & 396.25 \\
+ &  & 16 & 1.0 & 96.35 {\tiny $\pm$0.18} & 88.28 & 0.64 & 396.25 \\
+ &  & 20 & 0.4 & 96.65 {\tiny $\pm$0.05} & 89.12 & 0.54 & 385.36 \\
+ &  & 20 & 1.0 & 96.65 {\tiny $\pm$0.05} & 89.12 & 0.54 & 385.35 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

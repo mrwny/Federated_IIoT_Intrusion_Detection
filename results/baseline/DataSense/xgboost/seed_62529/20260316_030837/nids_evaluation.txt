@@ -1,0 +1,41 @@
+
+============================================================
+---------- Model ----------
+Model Type: XGBoost Classifier
+Input Size: 779
+Optimizer: XGBoost
+Learning Rate: 0.1
+Training Epochs: 500
+Training Date: 2026-03-16 03:10:23.903223
+Training Samples: 548536
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9649 (96.49%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign     0.9466    0.9961    0.9707     80135
+      Attack     0.9941    0.9210    0.9561     57000
+
+    accuracy                         0.9649    137135
+   macro avg     0.9703    0.9585    0.9634    137135
+weighted avg     0.9663    0.9649    0.9647    137135
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign   79821     314
+       Attack    4502   52498
+
+True Negatives (Benign correctly identified):  79821
+False Positives (Benign misclassified):        314
+False Negatives (Attack missed):               4502
+True Positives (Attack correctly detected):    52498
+
+Attack Detection Rate: 0.9210 (92.10%)
+False Positive Rate:   0.0039 (0.39%)
+============================================================
+

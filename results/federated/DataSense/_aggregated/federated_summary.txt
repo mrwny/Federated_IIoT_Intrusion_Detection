@@ -1,0 +1,700 @@
+================================================================================
+  Federated Results — Mean ± Std Across Seeds
+================================================================================
+
+--- AttentionFedXgb/XGBoost/iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.942696 ± 0.001640
+  Detection Rate                : 0.866538 ± 0.007135
+  False Positive Rate           : 0.003132 ± 0.002347
+
+--- AttentionFedXgb/XGBoost/iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.937847 ± 0.005659
+  Detection Rate                : 0.856047 ± 0.014110
+  False Positive Rate           : 0.003968 ± 0.001009
+
+--- AttentionFedXgb/XGBoost/iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.960545 ± 0.000257
+  Detection Rate                : 0.913942 ± 0.000841
+  False Positive Rate           : 0.006306 ± 0.000791
+
+--- AttentionFedXgb/XGBoost/iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.733443 ± 0.233516
+  Detection Rate                : 0.781216 ± 0.053478
+  False Positive Rate           : 0.300539 ± 0.416233
+
+--- AttentionFedXgb/XGBoost/iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961175 ± 0.000150
+  Detection Rate                : 0.912199 ± 0.001596
+  False Positive Rate           : 0.003989 ± 0.001384
+
+--- AttentionFedXgb/XGBoost/iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.958700 ± 0.002522
+  Detection Rate                : 0.907123 ± 0.005644
+  False Positive Rate           : 0.004613 ± 0.001828
+
+--- AttentionFedXgb/XGBoost/non-iid/12/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.953698 ± 0.002409
+  Detection Rate                : 0.895766 ± 0.009448
+  False Positive Rate           : 0.005096 ± 0.002739
+
+--- AttentionFedXgb/XGBoost/non-iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.953523 ± 0.002361
+  Detection Rate                : 0.897743 ± 0.003814
+  False Positive Rate           : 0.006801 ± 0.003318
+
+--- AttentionFedXgb/XGBoost/non-iid/16/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.947995 ± 0.000786
+  Detection Rate                : 0.886813 ± 0.004287
+  False Positive Rate           : 0.008486 ± 0.001854
+
+--- AttentionFedXgb/XGBoost/non-iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.950990 ± 0.001619
+  Detection Rate                : 0.889292 ± 0.005335
+  False Positive Rate           : 0.005125 ± 0.001055
+
+--- AttentionFedXgb/XGBoost/non-iid/2/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.938965 ± 0.013018
+  Detection Rate                : 0.863041 ± 0.037848
+  False Positive Rate           : 0.007030 ± 0.004690
+
+--- AttentionFedXgb/XGBoost/non-iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.938965 ± 0.013018
+  Detection Rate                : 0.863041 ± 0.037848
+  False Positive Rate           : 0.007030 ± 0.004690
+
+--- AttentionFedXgb/XGBoost/non-iid/20/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.953600 ± 0.000852
+  Detection Rate                : 0.898053 ± 0.003114
+  False Positive Rate           : 0.006888 ± 0.003474
+
+--- AttentionFedXgb/XGBoost/non-iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.944794 ± 0.010258
+  Detection Rate                : 0.873819 ± 0.026210
+  False Positive Rate           : 0.004721 ± 0.001675
+
+--- AttentionFedXgb/XGBoost/non-iid/4/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.951559 ± 0.007121
+  Detection Rate                : 0.895111 ± 0.016085
+  False Positive Rate           : 0.008290 ± 0.001057
+
+--- AttentionFedXgb/XGBoost/non-iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.952883 ± 0.006476
+  Detection Rate                : 0.897649 ± 0.014349
+  False Positive Rate           : 0.007828 ± 0.001137
+
+--- AttentionFedXgb/XGBoost/non-iid/8/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949471 ± 0.000974
+  Detection Rate                : 0.889222 ± 0.003977
+  False Positive Rate           : 0.007675 ± 0.001228
+
+--- AttentionFedXgb/XGBoost/non-iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954147 ± 0.001400
+  Detection Rate                : 0.895778 ± 0.003340
+  False Positive Rate           : 0.004334 ± 0.001692
+
+--- FedAvg/CNN/iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.944716 ± 0.003029
+  Detection Rate                : 0.887053 ± 0.002177
+  False Positive Rate           : 0.014268 ± 0.004783
+
+--- FedAvg/CNN/iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.938630 ± 0.007495
+  Detection Rate                : 0.883942 ± 0.010018
+  False Positive Rate           : 0.022470 ± 0.016819
+
+--- FedAvg/CNN/iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954838 ± 0.001110
+  Detection Rate                : 0.900737 ± 0.005715
+  False Positive Rate           : 0.006680 ± 0.002508
+
+--- FedAvg/CNN/iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.941070 ± 0.004219
+  Detection Rate                : 0.879257 ± 0.002502
+  False Positive Rate           : 0.014962 ± 0.007587
+
+--- FedAvg/CNN/iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.951515 ± 0.002531
+  Detection Rate                : 0.892228 ± 0.007477
+  False Positive Rate           : 0.006314 ± 0.003389
+
+--- FedAvg/CNN/iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.940747 ± 0.009549
+  Detection Rate                : 0.864357 ± 0.023247
+  False Positive Rate           : 0.004917 ± 0.001083
+
+--- FedAvg/CNN/non-iid/12/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.799205 ± 0.169298
+  Detection Rate                : 0.922825 ± 0.056422
+  False Positive Rate           : 0.288725 ± 0.328632
+
+--- FedAvg/CNN/non-iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.889070 ± 0.071218
+  Detection Rate                : 0.882269 ± 0.041790
+  False Positive Rate           : 0.106092 ± 0.146204
+
+--- FedAvg/CNN/non-iid/16/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.776908 ± 0.223182
+  Detection Rate                : 0.912906 ± 0.063206
+  False Positive Rate           : 0.319827 ± 0.425490
+
+--- FedAvg/CNN/non-iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.874965 ± 0.062639
+  Detection Rate                : 0.864842 ± 0.035208
+  False Positive Rate           : 0.117834 ± 0.122102
+
+--- FedAvg/CNN/non-iid/2/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.767025 ± 0.215438
+  Detection Rate                : 0.944263 ± 0.039201
+  False Positive Rate           : 0.359044 ± 0.396500
+
+--- FedAvg/CNN/non-iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.760416 ± 0.197395
+  Detection Rate                : 0.948058 ± 0.036381
+  False Positive Rate           : 0.373054 ± 0.363588
+
+--- FedAvg/CNN/non-iid/20/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.746994 ± 0.234209
+  Detection Rate                : 0.861105 ± 0.098226
+  False Positive Rate           : 0.334174 ± 0.470661
+
+--- FedAvg/CNN/non-iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.849528 ± 0.108844
+  Detection Rate                : 0.871801 ± 0.034761
+  False Positive Rate           : 0.166315 ± 0.210518
+
+--- FedAvg/CNN/non-iid/4/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.920993 ± 0.018794
+  Detection Rate                : 0.899942 ± 0.016149
+  False Positive Rate           : 0.064034 ± 0.042914
+
+--- FedAvg/CNN/non-iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.871740 ± 0.055651
+  Detection Rate                : 0.899678 ± 0.015357
+  False Positive Rate           : 0.148133 ± 0.106082
+
+--- FedAvg/CNN/non-iid/8/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.935725 ± 0.003549
+  Detection Rate                : 0.867585 ± 0.016186
+  False Positive Rate           : 0.015807 ± 0.017552
+
+--- FedAvg/CNN/non-iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.840923 ± 0.126460
+  Detection Rate                : 0.906784 ± 0.055496
+  False Positive Rate           : 0.205923 ± 0.253798
+
+--- FedAvg/DNN/iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961617 ± 0.000092
+  Detection Rate                : 0.912064 ± 0.001024
+  False Positive Rate           : 0.003136 ± 0.000678
+
+--- FedAvg/DNN/iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961082 ± 0.000414
+  Detection Rate                : 0.908988 ± 0.002564
+  False Positive Rate           : 0.001864 ± 0.001133
+
+--- FedAvg/DNN/iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961833 ± 0.000202
+  Detection Rate                : 0.913959 ± 0.001637
+  False Positive Rate           : 0.004114 ± 0.001469
+
+--- FedAvg/DNN/iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.960978 ± 0.000276
+  Detection Rate                : 0.908901 ± 0.002066
+  False Positive Rate           : 0.001980 ± 0.001044
+
+--- FedAvg/DNN/iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961700 ± 0.000244
+  Detection Rate                : 0.911105 ± 0.002226
+  False Positive Rate           : 0.002313 ± 0.001209
+
+--- FedAvg/DNN/iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961721 ± 0.000170
+  Detection Rate                : 0.912380 ± 0.000381
+  False Positive Rate           : 0.003182 ± 0.000395
+
+--- FedAvg/DNN/non-iid/12/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.718538 ± 0.224949
+  Detection Rate                : 0.955439 ± 0.047293
+  False Positive Rate           : 0.449970 ± 0.414317
+
+--- FedAvg/DNN/non-iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.880553 ± 0.104664
+  Detection Rate                : 0.925556 ± 0.047360
+  False Positive Rate           : 0.151457 ± 0.212720
+
+--- FedAvg/DNN/non-iid/16/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.653009 ± 0.214541
+  Detection Rate                : 0.959515 ± 0.046605
+  False Positive Rate           : 0.565009 ± 0.400229
+
+--- FedAvg/DNN/non-iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.947203 ± 0.007913
+  Detection Rate                : 0.874830 ± 0.020823
+  False Positive Rate           : 0.001319 ± 0.001716
+
+--- FedAvg/DNN/non-iid/2/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.952601 ± 0.004525
+  Detection Rate                : 0.908813 ± 0.005888
+  False Positive Rate           : 0.016252 ± 0.003556
+
+--- FedAvg/DNN/non-iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.772864 ± 0.250985
+  Detection Rate                : 0.937637 ± 0.044101
+  False Positive Rate           : 0.344340 ± 0.460879
+
+--- FedAvg/DNN/non-iid/20 (2 seeds: 1702, 42) ---
+  Accuracy                      : 0.791705 ± 0.164790
+  Detection Rate                : 0.947509 ± 0.051965
+  False Positive Rate           : 0.319118 ± 0.318968
+
+--- FedAvg/DNN/non-iid/20/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.816429 ± 0.179567
+  Detection Rate                : 0.934526 ± 0.046771
+  False Positive Rate           : 0.267573 ± 0.339607
+
+--- FedAvg/DNN/non-iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954743 ± 0.003494
+  Detection Rate                : 0.891392 ± 0.008457
+  False Positive Rate           : 0.000196 ± 0.000056
+
+--- FedAvg/DNN/non-iid/4/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.840274 ± 0.167363
+  Detection Rate                : 0.938696 ± 0.043614
+  False Positive Rate           : 0.229733 ± 0.317120
+
+--- FedAvg/DNN/non-iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.946982 ± 0.008916
+  Detection Rate                : 0.899339 ± 0.013767
+  False Positive Rate           : 0.019130 ± 0.024958
+
+--- FedAvg/DNN/non-iid/8/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.957212 ± 0.001774
+  Detection Rate                : 0.898737 ± 0.005539
+  False Positive Rate           : 0.001194 ± 0.000978
+
+--- FedAvg/DNN/non-iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.780168 ± 0.243981
+  Detection Rate                : 0.931193 ± 0.048623
+  False Positive Rate           : 0.327256 ± 0.452111
+
+--- FedProx/CNN/iid/12/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.945484 ± 0.002138
+  Detection Rate                : 0.885070 ± 0.005283
+  False Positive Rate           : 0.011543 ± 0.001435
+
+--- FedProx/CNN/iid/16/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.941257 ± 0.003667
+  Detection Rate                : 0.884345 ± 0.007361
+  False Positive Rate           : 0.018261 ± 0.006811
+
+--- FedProx/CNN/iid/2/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954318 ± 0.001798
+  Detection Rate                : 0.900602 ± 0.006560
+  False Positive Rate           : 0.007475 ± 0.004453
+
+--- FedProx/CNN/iid/20/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.940555 ± 0.003276
+  Detection Rate                : 0.876684 ± 0.004413
+  False Positive Rate           : 0.014014 ± 0.008053
+
+--- FedProx/CNN/iid/4/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.951700 ± 0.001724
+  Detection Rate                : 0.893374 ± 0.008248
+  False Positive Rate           : 0.006814 ± 0.003062
+
+--- FedProx/CNN/iid/8/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.948627 ± 0.001512
+  Detection Rate                : 0.887836 ± 0.005388
+  False Positive Rate           : 0.008132 ± 0.001434
+
+--- FedProx/CNN/non-iid/12/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.797773 ± 0.192168
+  Detection Rate                : 0.912971 ± 0.065218
+  False Positive Rate           : 0.284166 ± 0.372789
+
+--- FedProx/CNN/non-iid/12/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.912211 ± 0.038942
+  Detection Rate                : 0.878018 ± 0.037204
+  False Positive Rate           : 0.063468 ± 0.086150
+
+--- FedProx/CNN/non-iid/16/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.423228 ± 0.010636
+  Detection Rate                : 0.998041 ± 0.002771
+  False Positive Rate           : 0.985637 ± 0.020172
+
+--- FedProx/CNN/non-iid/16/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.825381 ± 0.101739
+  Detection Rate                : 0.904848 ± 0.027881
+  False Positive Rate           : 0.231143 ± 0.193482
+
+--- FedProx/CNN/non-iid/2/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.771889 ± 0.205349
+  Detection Rate                : 0.945228 ± 0.038454
+  False Positive Rate           : 0.351407 ± 0.378539
+
+--- FedProx/CNN/non-iid/2/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.773151 ± 0.207657
+  Detection Rate                : 0.942702 ± 0.040581
+  False Positive Rate           : 0.347451 ± 0.384229
+
+--- FedProx/CNN/non-iid/20/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.733856 ± 0.225524
+  Detection Rate                : 0.907602 ± 0.075764
+  False Positive Rate           : 0.389730 ± 0.435650
+
+--- FedProx/CNN/non-iid/20/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.917668 ± 0.008471
+  Detection Rate                : 0.868696 ± 0.027639
+  False Positive Rate           : 0.047499 ± 0.029661
+
+--- FedProx/CNN/non-iid/4/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.667906 ± 0.199950
+  Detection Rate                : 0.967632 ± 0.045169
+  False Positive Rate           : 0.545288 ± 0.373538
+
+--- FedProx/CNN/non-iid/4/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.940803 ± 0.007949
+  Detection Rate                : 0.882327 ± 0.007413
+  False Positive Rate           : 0.017604 ± 0.016124
+
+--- FedProx/CNN/non-iid/8/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.932108 ± 0.009087
+  Detection Rate                : 0.841140 ± 0.021730
+  False Positive Rate           : 0.003186 ± 0.002096
+
+--- FedProx/CNN/non-iid/8/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.895247 ± 0.016408
+  Detection Rate                : 0.870006 ± 0.050316
+  False Positive Rate           : 0.086799 ± 0.062582
+
+--- FedProx/DNN/iid/12/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961267 ± 0.000254
+  Detection Rate                : 0.910772 ± 0.001552
+  False Positive Rate           : 0.002816 ± 0.001053
+
+--- FedProx/DNN/iid/16/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961184 ± 0.000236
+  Detection Rate                : 0.909129 ± 0.000615
+  False Positive Rate           : 0.001789 ± 0.000520
+
+--- FedProx/DNN/iid/2/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961894 ± 0.000194
+  Detection Rate                : 0.911959 ± 0.001834
+  False Positive Rate           : 0.002587 ± 0.001161
+
+--- FedProx/DNN/iid/20/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.960883 ± 0.000585
+  Detection Rate                : 0.908105 ± 0.002908
+  False Positive Rate           : 0.001577 ± 0.001118
+
+--- FedProx/DNN/iid/4/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961619 ± 0.000239
+  Detection Rate                : 0.910439 ± 0.001264
+  False Positive Rate           : 0.001976 ± 0.000541
+
+--- FedProx/DNN/iid/8/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961707 ± 0.000174
+  Detection Rate                : 0.911111 ± 0.001357
+  False Positive Rate           : 0.002304 ± 0.000876
+
+--- FedProx/DNN/non-iid/12/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.955205 ± 0.001852
+  Detection Rate                : 0.892345 ± 0.004452
+  False Positive Rate           : 0.000083 ± 0.000036
+
+--- FedProx/DNN/non-iid/12/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.956085 ± 0.001765
+  Detection Rate                : 0.894749 ± 0.004315
+  False Positive Rate           : 0.000287 ± 0.000147
+
+--- FedProx/DNN/non-iid/16/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.735810 ± 0.218656
+  Detection Rate                : 0.947333 ± 0.037242
+  False Positive Rate           : 0.414646 ± 0.400332
+
+--- FedProx/DNN/non-iid/16/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.950470 ± 0.004114
+  Detection Rate                : 0.882368 ± 0.011560
+  False Positive Rate           : 0.001090 ± 0.001391
+
+--- FedProx/DNN/non-iid/2/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.772344 ± 0.252209
+  Detection Rate                : 0.934058 ± 0.046780
+  False Positive Rate           : 0.342684 ± 0.464766
+
+--- FedProx/DNN/non-iid/2/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.950450 ± 0.005255
+  Detection Rate                : 0.908316 ± 0.007800
+  False Positive Rate           : 0.019579 ± 0.004694
+
+--- FedProx/DNN/non-iid/20/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954349 ± 0.002468
+  Detection Rate                : 0.891386 ± 0.007431
+  False Positive Rate           : 0.000865 ± 0.001067
+
+--- FedProx/DNN/non-iid/20/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954765 ± 0.002367
+  Detection Rate                : 0.891421 ± 0.005788
+  False Positive Rate           : 0.000179 ± 0.000097
+
+--- FedProx/DNN/non-iid/4/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.843313 ± 0.144480
+  Detection Rate                : 0.942251 ± 0.035487
+  False Positive Rate           : 0.227063 ± 0.272222
+
+--- FedProx/DNN/non-iid/4/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.847408 ± 0.156131
+  Detection Rate                : 0.927433 ± 0.032934
+  False Positive Rate           : 0.209513 ± 0.289525
+
+--- FedProx/DNN/non-iid/8/frac_0.4/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.951979 ± 0.002954
+  Detection Rate                : 0.898234 ± 0.012110
+  False Positive Rate           : 0.009792 ± 0.012167
+
+--- FedProx/DNN/non-iid/8/frac_1.0/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.859817 ± 0.136600
+  Detection Rate                : 0.928801 ± 0.044869
+  False Positive Rate           : 0.189251 ± 0.265676
+
+--- FedProx/DNN/non-iid/8/mu_0.001 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.947490 ± 0.016105
+  Detection Rate                : 0.895275 ± 0.020621
+  False Positive Rate           : 0.015370 ± 0.014564
+
+--- FedProx/DNN/non-iid/8/mu_0.01 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.945628 ± 0.018650
+  Detection Rate                : 0.875251 ± 0.049602
+  False Positive Rate           : 0.004314 ± 0.005653
+
+--- FedProx/DNN/non-iid/8/mu_0.05 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949079 ± 0.014600
+  Detection Rate                : 0.896000 ± 0.017800
+  False Positive Rate           : 0.013165 ± 0.013552
+
+--- FedProx/DNN/non-iid/8/mu_0.1 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949590 ± 0.010351
+  Detection Rate                : 0.896971 ± 0.021553
+  False Positive Rate           : 0.012982 ± 0.007834
+
+--- FedProx/DNN/non-iid/8/mu_0.5 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.857301 ± 0.141906
+  Detection Rate                : 0.937503 ± 0.040320
+  False Positive Rate           : 0.199746 ± 0.270929
+
+--- FedProx/DNN/non-iid/8/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.946753 ± 0.017390
+  Detection Rate                : 0.890637 ± 0.026389
+  False Positive Rate           : 0.013332 ± 0.012316
+
+--- FedRF/RandomForest/iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.957786 ± 0.000246
+  Detection Rate                : 0.909380 ± 0.001541
+  False Positive Rate           : 0.007783 ± 0.000692
+
+--- FedRF/RandomForest/iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.957050 ± 0.000197
+  Detection Rate                : 0.908596 ± 0.001620
+  False Positive Rate           : 0.008486 ± 0.000816
+
+--- FedRF/RandomForest/iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961858 ± 0.000215
+  Detection Rate                : 0.916924 ± 0.000841
+  False Positive Rate           : 0.006181 ± 0.000607
+
+--- FedRF/RandomForest/iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.956464 ± 0.000120
+  Detection Rate                : 0.905953 ± 0.000628
+  False Positive Rate           : 0.007608 ± 0.000579
+
+--- FedRF/RandomForest/iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.960358 ± 0.000220
+  Detection Rate                : 0.914667 ± 0.000823
+  False Positive Rate           : 0.007142 ± 0.000347
+
+--- FedRF/RandomForest/iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.958839 ± 0.000175
+  Detection Rate                : 0.911205 ± 0.000424
+  False Positive Rate           : 0.007279 ± 0.000062
+
+--- FedRF/RandomForest/non-iid/12/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949602 ± 0.001710
+  Detection Rate                : 0.889339 ± 0.001596
+  False Positive Rate           : 0.007533 ± 0.001827
+
+--- FedRF/RandomForest/non-iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949602 ± 0.001710
+  Detection Rate                : 0.889339 ± 0.001596
+  False Positive Rate           : 0.007533 ± 0.001827
+
+--- FedRF/RandomForest/non-iid/16/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.941158 ± 0.001099
+  Detection Rate                : 0.870023 ± 0.003097
+  False Positive Rate           : 0.008244 ± 0.000716
+
+--- FedRF/RandomForest/non-iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.941158 ± 0.001099
+  Detection Rate                : 0.870023 ± 0.003097
+  False Positive Rate           : 0.008244 ± 0.000716
+
+--- FedRF/RandomForest/non-iid/2/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.959140 ± 0.001447
+  Detection Rate                : 0.914953 ± 0.004846
+  False Positive Rate           : 0.009430 ± 0.003633
+
+--- FedRF/RandomForest/non-iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.959140 ± 0.001447
+  Detection Rate                : 0.914953 ± 0.004846
+  False Positive Rate           : 0.009430 ± 0.003633
+
+--- FedRF/RandomForest/non-iid/20/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.943183 ± 0.002416
+  Detection Rate                : 0.874713 ± 0.006134
+  False Positive Rate           : 0.008115 ± 0.000620
+
+--- FedRF/RandomForest/non-iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.943183 ± 0.002416
+  Detection Rate                : 0.874713 ± 0.006134
+  False Positive Rate           : 0.008115 ± 0.000620
+
+--- FedRF/RandomForest/non-iid/4/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.952757 ± 0.009303
+  Detection Rate                : 0.897883 ± 0.019558
+  False Positive Rate           : 0.008211 ± 0.002208
+
+--- FedRF/RandomForest/non-iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.952757 ± 0.009303
+  Detection Rate                : 0.897883 ± 0.019558
+  False Positive Rate           : 0.008211 ± 0.002208
+
+--- FedRF/RandomForest/non-iid/8/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.948345 ± 0.005674
+  Detection Rate                : 0.881614 ± 0.013654
+  False Positive Rate           : 0.004189 ± 0.000788
+
+--- FedRF/RandomForest/non-iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.948345 ± 0.005674
+  Detection Rate                : 0.881614 ± 0.013654
+  False Positive Rate           : 0.004189 ± 0.000788
+
+--- FedXgbBagging/XGBoost/iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.600413 ± 0.022267
+  Detection Rate                : 0.980357 ± 0.009073
+  False Positive Rate           : 0.669840 ± 0.038311
+
+--- FedXgbBagging/XGBoost/iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.507150 ± 0.015205
+  Detection Rate                : 0.989965 ± 0.006500
+  False Positive Rate           : 0.836276 ± 0.025883
+
+--- FedXgbBagging/XGBoost/iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.960470 ± 0.000084
+  Detection Rate                : 0.914544 ± 0.000687
+  False Positive Rate           : 0.006863 ± 0.000372
+
+--- FedXgbBagging/XGBoost/iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.596432 ± 0.234912
+  Detection Rate                : 0.938556 ± 0.071288
+  False Positive Rate           : 0.646921 ± 0.452712
+
+--- FedXgbBagging/XGBoost/iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.961294 ± 0.000098
+  Detection Rate                : 0.912895 ± 0.001868
+  False Positive Rate           : 0.004280 ± 0.001489
+
+--- FedXgbBagging/XGBoost/iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.891795 ± 0.085369
+  Detection Rate                : 0.915275 ± 0.025703
+  False Positive Rate           : 0.124906 ± 0.163438
+
+--- FedXgbBagging/XGBoost/non-iid/12/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.953131 ± 0.004460
+  Detection Rate                : 0.894795 ± 0.015209
+  False Positive Rate           : 0.005374 ± 0.003477
+
+--- FedXgbBagging/XGBoost/non-iid/12/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.945623 ± 0.014699
+  Detection Rate                : 0.879029 ± 0.029936
+  False Positive Rate           : 0.007009 ± 0.004169
+
+--- FedXgbBagging/XGBoost/non-iid/16/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949318 ± 0.001142
+  Detection Rate                : 0.886520 ± 0.004238
+  False Positive Rate           : 0.006015 ± 0.001114
+
+--- FedXgbBagging/XGBoost/non-iid/16/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.893429 ± 0.082812
+  Detection Rate                : 0.898637 ± 0.003446
+  False Positive Rate           : 0.110276 ± 0.143807
+
+--- FedXgbBagging/XGBoost/non-iid/2/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.938907 ± 0.012859
+  Detection Rate                : 0.862152 ± 0.037042
+  False Positive Rate           : 0.006497 ± 0.004347
+
+--- FedXgbBagging/XGBoost/non-iid/2/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.938907 ± 0.012859
+  Detection Rate                : 0.862152 ± 0.037042
+  False Positive Rate           : 0.006497 ± 0.004347
+
+--- FedXgbBagging/XGBoost/non-iid/20/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954293 ± 0.001374
+  Detection Rate                : 0.898825 ± 0.002444
+  False Positive Rate           : 0.006252 ± 0.003403
+
+--- FedXgbBagging/XGBoost/non-iid/20/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.843142 ± 0.068852
+  Detection Rate                : 0.877018 ± 0.013102
+  False Positive Rate           : 0.180953 ± 0.123353
+
+--- FedXgbBagging/XGBoost/non-iid/4/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.955876 ± 0.004486
+  Detection Rate                : 0.900982 ± 0.011404
+  False Positive Rate           : 0.005079 ± 0.001202
+
+--- FedXgbBagging/XGBoost/non-iid/4/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.953489 ± 0.006780
+  Detection Rate                : 0.896515 ± 0.013366
+  False Positive Rate           : 0.005986 ± 0.003463
+
+--- FedXgbBagging/XGBoost/non-iid/8/frac_0.4 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.951114 ± 0.002176
+  Detection Rate                : 0.888649 ± 0.002863
+  False Positive Rate           : 0.004455 ± 0.002041
+
+--- FedXgbBagging/XGBoost/non-iid/8/frac_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.954361 ± 0.001397
+  Detection Rate                : 0.896520 ± 0.003243
+  False Positive Rate           : 0.004497 ± 0.001285
+
+--- mu_sweep/20/mu_0.001 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.771853 ± 0.132065
+  Detection Rate                : 0.963503 ± 0.046928
+  False Positive Rate           : 0.364468 ± 0.259232
+
+--- mu_sweep/20/mu_0.01 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.843512 ± 0.142869
+  Detection Rate                : 0.945690 ± 0.038264
+  False Positive Rate           : 0.229167 ± 0.271669
+
+--- mu_sweep/20/mu_0.05 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.945988 ± 0.001961
+  Detection Rate                : 0.881339 ± 0.020664
+  False Positive Rate           : 0.008028 ± 0.011345
+
+--- mu_sweep/20/mu_0.1 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.707252 ± 0.221204
+  Detection Rate                : 0.959626 ± 0.050523
+  False Positive Rate           : 0.472261 ± 0.408944
+
+--- mu_sweep/20/mu_0.5 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.846502 ± 0.151557
+  Detection Rate                : 0.931222 ± 0.048035
+  False Positive Rate           : 0.213760 ± 0.293435
+
+--- mu_sweep/20/mu_1.0 (3 seeds: 62529, 70814, 79397) ---
+  Accuracy                      : 0.949011 ± 0.006034
+  Detection Rate                : 0.877719 ± 0.015039
+  False Positive Rate           : 0.000279 ± 0.000376
+
+================================================================================

@@ -1,0 +1,62 @@
+
+============================================================
+---------- Model ----------
+Model Architecture: CNN(
+  (features): Sequential(
+    (0): Conv1d(1, 32, kernel_size=(3,), stride=(1,), padding=(1,))
+    (1): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (4): Conv1d(32, 64, kernel_size=(3,), stride=(1,), padding=(1,))
+    (5): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): ReLU()
+    (7): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (classifier): Sequential(
+    (0): AdaptiveAvgPool1d(output_size=1)
+    (1): Flatten(start_dim=1, end_dim=-1)
+    (2): Linear(in_features=64, out_features=128, bias=True)
+    (3): ReLU()
+    (4): Dropout(p=0.5, inplace=False)
+    (5): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+Input Size: 779
+Loss Function: CrossEntropyLoss
+Loss Weights (Benign, Attack): [1.0, 1.5]
+Optimizer: Adam
+Learning Rate: 0.001
+Training Epochs: 30
+Training Date: 2026-03-16 03:06:00.081805
+Training Samples: 548536
+---------------------------
+
+MODEL EVALUATION RESULTS
+============================================================
+Overall Accuracy: 0.9503 (95.03%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign     0.9226    0.9987    0.9591     80135
+      Attack     0.9979    0.8822    0.9365     57000
+
+    accuracy                         0.9503    137135
+   macro avg     0.9602    0.9404    0.9478    137135
+weighted avg     0.9539    0.9503    0.9497    137135
+
+Confusion Matrix:
+                Predicted
+              Benign  Attack
+Actual Benign   80028     107
+       Attack    6714   50286
+
+True Negatives (Benign correctly identified):  80028
+False Positives (Benign misclassified):        107
+False Negatives (Attack missed):               6714
+True Positives (Attack correctly detected):    50286
+
+Attack Detection Rate: 0.8822 (88.22%)
+False Positive Rate:   0.0013 (0.13%)
+============================================================
+

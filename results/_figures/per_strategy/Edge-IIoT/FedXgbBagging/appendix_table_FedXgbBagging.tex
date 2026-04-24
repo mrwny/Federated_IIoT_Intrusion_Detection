@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Full Experimental Results: FedXgbBagging on Edge-IIoT}
+\label{tab:edge-iiot_fedxgbbagging_full_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccrrrr}
+\toprule
+\textbf{Model} & \textbf{Partition} & \textbf{Clients} & \textbf{Frac} & \textbf{Accuracy} & \textbf{ADR} & \textbf{FPR} & \textbf{Comm (MB)} \\
+\midrule
+XGBoost & IID & 2 & 1.0 & 93.55 {\tiny $\pm$0.14} & 77.75 & 0.54 & 6.22 \\
+ &  & 4 & 1.0 & 94.13 {\tiny $\pm$0.04} & 80.70 & 0.85 & 18.30 \\
+ &  & 8 & 1.0 & 96.42 {\tiny $\pm$0.06} & 88.94 & 0.79 & 67.03 \\
+ &  & 12 & 1.0 & 96.61 {\tiny $\pm$0.02} & 88.84 & 0.49 & 143.78 \\
+ &  & 16 & 1.0 & 96.62 {\tiny $\pm$0.01} & 88.95 & 0.51 & 242.23 \\
+ &  & 20 & 1.0 & 96.73 {\tiny $\pm$0.03} & 89.43 & 0.55 & 368.44 \\
+ & Non-IID & 2 & 0.4 & 93.69 {\tiny $\pm$2.93} & 78.89 & 0.78 & 3.35 \\
+ &  & 2 & 1.0 & 93.27 {\tiny $\pm$2.61} & 77.35 & 0.78 & 5.05 \\
+ &  & 4 & 0.4 & 91.41 {\tiny $\pm$3.20} & 70.37 & 0.72 & 3.10 \\
+ &  & 4 & 1.0 & 93.05 {\tiny $\pm$2.93} & 76.09 & 0.62 & 13.74 \\
+ &  & 8 & 0.4 & 93.67 {\tiny $\pm$1.06} & 78.87 & 0.80 & 7.06 \\
+ &  & 8 & 1.0 & 96.00 {\tiny $\pm$0.46} & 87.27 & 0.74 & 46.45 \\
+ &  & 12 & 0.4 & 94.59 {\tiny $\pm$1.16} & 82.18 & 0.77 & 11.21 \\
+ &  & 12 & 1.0 & 95.68 {\tiny $\pm$0.67} & 86.04 & 0.72 & 89.68 \\
+ &  & 16 & 0.4 & 94.77 {\tiny $\pm$1.06} & 82.91 & 0.79 & 23.63 \\
+ &  & 16 & 1.0 & 96.05 {\tiny $\pm$0.43} & 87.63 & 0.81 & 159.51 \\
+ &  & 20 & 0.4 & 96.00 {\tiny $\pm$0.26} & 87.28 & 0.74 & 42.05 \\
+ &  & 20 & 1.0 & 96.31 {\tiny $\pm$0.18} & 88.36 & 0.72 & 254.07 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
