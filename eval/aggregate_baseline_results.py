@@ -76,7 +76,7 @@ def aggregate_model(dataset: str, model_type: str) -> Optional[dict]:
             seeds_found.append(seed_val)
 
     if len(all_metrics) < 2:
-        print(f"  [!] {model_type}: Only {len(all_metrics)} seed(s) found, skipping aggregation")
+        print(f"  {model_type}: Only {len(all_metrics)} seed(s) found, skipping aggregation")
         return None
 
     # Compute mean ± std for each metric

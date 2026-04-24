@@ -38,7 +38,7 @@ This repository contains the accompanying source code, experiment configurations
 ├── results/                    Experiment outputs
 │   ├── baseline/               Per-model metrics (DataSense, Edge-IIoT)
 │   ├── federated/              Per-strategy metrics + µ sweep
-│   └── figures/                Publication-ready PDF figures
+│   └── figures/                PDF figures
 │
 └── requirements.txt            Python dependencies
 ```
